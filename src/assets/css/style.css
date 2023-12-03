@@ -432,7 +432,6 @@ section {
 .play-icon:before {
     font-family: 'fontawesome';
     content: '\f144';
-    speak: none;
     font-size: 74px;
     line-height: 110px;
     font-style: normal;
@@ -706,7 +705,6 @@ a img {
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    -webkit-backface-visibility: hidden;
 }
 
 a img:hover {
@@ -970,55 +968,6 @@ blockquote {
 
 .testimonial.bigtest q {
     font-size: 22px;
-}
-
-/* --------- 6.4 Gallery ---------- */
-
-#gallery img {
-    max-height: 300px;
-}
-
-#gallery [class*='col-'] {
-    padding: 0;
-}
-
-#gallery a {
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-}
-
-#gallery a:hover img {
-    opacity: 0.15;
-    -moz-backface-visibility: hidden;
-}
-
-#gallery a:before {
-    font-size: 2.2em;
-    font-style: normal;
-    font-weight: normal;
-    text-align: center;
-    content: "+";
-    width: 70px;
-    height: 70px;
-    border-radius: 100em;
-    display: block;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    line-height: 72px;
-    margin: -35px 0 0 -35px;
-    opacity: 0;
-    -webkit-transition: all .2s linear;
-    -moz-transition: all .2s linear;
-    transition: all .2s linear;
-    vertical-align: middle;
-}
-
-#gallery a:hover:before {
-    opacity: 1;
-    top: 50%;
-    left: 50%;
 }
 
 /**
