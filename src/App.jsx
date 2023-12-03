@@ -1,14 +1,16 @@
 import Header from './Components/Header'
+import product from './Components/product'
 
 
 function App() {
-
-
   return (
     <>
-      <Header />
+    <Header />
+    <main id = "main">
+      <product />
+    </main>
     </>
   )
 }
 
-export default App
+export default App;
