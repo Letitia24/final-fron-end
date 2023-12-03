@@ -2,43 +2,43 @@
 
 const Header = ()=>  {
   return (
-    <div>
-<header className="header_section">
-  <div className="container-fluid">
-    <nav className="navbar navbar-expand-lg custom_nav-container ">
-      <a className="navbar-brand" href="index.html">
-        <span>
-          Logo/Nama Toko
-        </span>
-      </a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon" />
-      </button>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <div className="d-flex ml-auto flex-column flex-lg-row align-items-center">
-          <ul className="navbar-nav  ">
-            <li className="nav-item active">
-              <a className="nav-link" href="index.html">Home <span className="sr-only">(current)</span></a>
+    <header id="banner" className="scrollto clearfix" data-enllax-ratio=".5">
+  <div id="header" className="nav-collapse">
+    <div className="row clearfix">
+      <div className="col-1">
+        <h1>picelCraft</h1>
+        {/*Main Navigation*/}
+        <nav id="nav-main">
+          <ul>
+            <li>
+              <a href="#banner">Home</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="product.html"> product</a>
+            <li>
+              <a href="#about">About</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="about.html"> About Us</a>
+            <li>
+              <a href="#gallery">product</a>
             </li>
           </ul>
-          <div className="user_option">
-            <form className="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-              <button className="btn  my-2 my-sm-0 nav_search-btn" type="submit" />
-            </form>
-          </div>
-        </div>
+        </nav>
+        {/*End of Main Navigation*/}
+        <div id="nav-trigger"><span /></div>
+        <nav id="nav-mobile" />
       </div>
-    </nav>
-  </div>
+    </div>
+  </div>{/*End of Header*/}
+  {/*Banner Content*/}
+  <div id="banner-content" className="row clearfix">
+    <div className="col-38">
+      <div className="section-heading">
+        <h1>welcome to picelCraft</h1>
+        <h2>Jadikan setiap cetakan spesial, di mana kreativitas 
+          bertemu dengan kualitas untuk memberikan sentuhan unik pada ide-ide Anda!</h2>
+      </div>
+    </div>
+  </div>{/*End of Row*/}
 </header>
 
-    </div>
   )
 }
 
