@@ -7,7 +7,7 @@ const product = () => {
       <div className="section-heading">
         <h3>SUCCESS</h3>
         <h2 className="section-title">Product</h2>
-        <p className="section-subtitle">menerima jasa mengedit foto, video, dan pengetikan</p>
+        <p className="section-subtitle">Jadikan setiap ide Anda mencolok!, biarkan kreasi Anda mengguncang dunia dengan cetakan yang tidak biasa dan penuh gaya</p>
       </div>
     </div>
     <div className="col-2-3">
@@ -19,9 +19,8 @@ const product = () => {
         </div>
         {/*Icon Block Description*/}
         <div className="icon-block-description">
-          <h4>HTML5 &amp; CSS3</h4>
-          <p>Has ne tritani atomorum conclusionemque, in dolorum volumus cotidieque eum. At vis choro
-            neglegentur iudico</p>
+          <h4>Print and PhotoCopy</h4>
+          <p>print hitam putih, print warna, print pas foto, piagam, pamflet/brosur</p>
         </div>
       </div>
       {/*End of Icon Block*/}
@@ -33,9 +32,8 @@ const product = () => {
         </div>
         {/*Icon Block Description*/}
         <div className="icon-block-description">
-          <h4>Easy to Use</h4>
-          <p>Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit
-            detracto mediocrem disputationi</p>
+          <h4>Other</h4>
+          <p>kop suratspanduk, bendera/panji, sablon kaos, gantungan kunci, edit transfer VCD-DVD, design gambar/foto/video, cetak amplop, cetak map, poster, baliho, scan, laminating, note book , batu prasasti, x bener, undangan, stiker, kalender almanak/ triwulan/meja, kartu Nama</p>
         </div>
       </div>
       {/*End of Icon Block*/}
@@ -47,9 +45,8 @@ const product = () => {
         </div>
         {/*Icon Block Description*/}
         <div className="icon-block-description">
-          <h4>Fully Responsive</h4>
-          <p>Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro
-            nemore vivendum</p>
+          <h4>Cap flash</h4>
+          <p>legalisir/besar/kecil, merah/ungu/biru/hijau/kuning/hitam</p>
         </div>
       </div>
       {/*End of Icon Block*/}
@@ -61,9 +58,8 @@ const product = () => {
         </div>
         {/*Icon Block Description*/}
         <div className="icon-block-description">
-          <h4>Parallax Effect</h4>
-          <p>Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro
-            nemore vivendum</p>
+          <h4>Papan Nama</h4>
+          <p>biasa/gold/silver, biasa/kalkir, peneti/magnet</p>
         </div>
       </div>
       {/*End of Icon Block*/}
