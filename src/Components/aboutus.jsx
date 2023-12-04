@@ -8,8 +8,8 @@ const aboutus = () => {
             <div className="col-3">
               {/*User Testimonial*/}
               <blockquote className="testimonial text-right bigtest">
-                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</q>
-                <footer>— John Doe, Happy Customer</footer>
+                <q>Toko ini memberikan pelayanan percetakan yang sangat baik dengan harga yang terjangkau</q>
+                <footer>John Doe, Customer</footer>
               </blockquote>
               {/* End of Testimonial*/}
             </div>
@@ -17,9 +17,7 @@ const aboutus = () => {
             {/*Content of the Right Side*/}
             <div className="col-3">
               <div className="section-heading">
-                <h3>BELIEVING</h3>
-                <h2 className="section-title">Focusing On What Matters Most</h2>
-                <p className="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+                <h2 className="section-title">Tentang Kami</h2>
               </div>
               <p>
                 Toko ini didirikan pada tahun 2008 dengan fokus awalnya hanya pada layanan pencetakan. Seiring berjalannya waktu, kami telah berkembang dan meningkatkan jangkauan layanan kami untuk memenuhi kebutuhan pelanggan dengan lebih
@@ -36,7 +34,7 @@ const aboutus = () => {
             </div>
             {/*End Content Right Side*/}
             <div className="col-3">
-              <img src="images/dancer.jpg" alt="Dancer" />
+              <img src=".src/assets/img/dancer.jpg" alt="Dancer" />
             </div>
           </div>
         </div>

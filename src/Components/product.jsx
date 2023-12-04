@@ -6,8 +6,7 @@ const product = () => {
         <div className="row clearfix">
           <div className="col-3">
             <div className="section-heading">
-              <h3>SUCCESS</h3>
-              <h2 className="section-title">Product</h2>
+              <h2 className="section-title">Produk & Layanan</h2>
               <p className="section-subtitle">Jadikan setiap ide Anda mencolok!, biarkan kreasi Anda mengguncang dunia dengan cetakan yang tidak biasa dan penuh gaya</p>
             </div>
           </div>
@@ -20,7 +19,7 @@ const product = () => {
               </div>
               {/*Icon Block Description*/}
               <div className="icon-block-description">
-                <h4>Print and PhotoCopy</h4>
+                <h4>Print & PhotoCopy</h4>
                 <p>print hitam putih, print warna, print pas foto, piagam, pamflet/brosur</p>
               </div>
             </div>
