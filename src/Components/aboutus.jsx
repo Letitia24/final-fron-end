@@ -2,7 +2,7 @@ const aboutus = () => {
   return (
     <>
       <div>
-        <div id="services" className="scrollto clearfix">
+        <div id="about" className="scrollto clearfix">
           <div className="row no-padding-bottom clearfix">
             {/*Content Left Side*/}
             <div className="col-3">
