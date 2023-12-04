@@ -4,7 +4,7 @@ const Header = () => {
       <div id="header" className="nav-collapse">
         <div className="row clearfix">
           <div className="col-1">
-            <h1>picelCraft</h1>
+            <h1>pixelCraft</h1>
             {/*Main Navigation*/}
             <nav id="nav-main">
               <ul>
