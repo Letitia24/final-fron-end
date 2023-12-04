@@ -7,9 +7,6 @@ const home = () => {
           <h2>Namari is a free landing page template you can use for your projects. It is free to use for your personal and commercial projects, enjoy!</h2>
         </div>
       </div>
-      <a href="#" className="button">
-        START CREATING TODAY
-      </a>
     </div>
   );
 };
